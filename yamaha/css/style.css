@@ -291,10 +291,63 @@
 
 .horz-nav-cirule {
     position: absolute;
-    width: 905px;
+    width: 915px;
     height: 1px;
     bottom: 6px;
-    left: 50px;
+    left: 40px;
     border-radius: 1px;
     background-color: #c8c8c8; 
+}
+
+.power-stats {
+    width: 965px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.power-stats .engine-text {
+    width: 433px;
+    margin-left: 40px;
+}
+
+.power-stats .engine-text h3 {
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #212327;
+    margin-bottom: 21px;   
+}
+
+.power-stats .engine-text p:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+.power-stats .engine-text p {
+    color: #212327;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.image-gallery {
+    width: 100%;
+    max-width:100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.image-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
