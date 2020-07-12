@@ -332,6 +332,8 @@
 }
 
 .image-gallery {
+    margin-top: 121px;
+    margin-bottom: 40px;
     width: 100%;
     max-width:100%;
     overflow: hidden;
@@ -351,3 +353,90 @@
     flex-direction: column;
     justify-content: flex-start;
 }
+
+.view-360 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.view-360 div {
+    display: flex;
+    flex-direction: row;
+}
+
+.view-360 div img {
+    margin-right: 10px;
+}
+
+.extras {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.extras-text {
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.extras-text p {
+    opacity: 0.53;
+    color: #212327;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.motogp-img {
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 93px;
+}
+
+.omunic-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.omunic-info:nth-child(2) img {
+    margin-bottom: -6px;
+}
+
+.omunic-info img {
+    margin-bottom: 24px;
+}
+
+.omunic-info img+p {
+    color: #212327;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.omunic-info img + p + p {
+    color: #8d9095;
+    font-family: Oswald;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+
+
+
+
