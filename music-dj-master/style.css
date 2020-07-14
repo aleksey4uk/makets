@@ -1,0 +1,455 @@
+* { margin: 0; padding: 0; }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 1202px;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 196px;
+  height: 56px;
+  opacity: 0.93;
+  background: url('img/Слой_17.png') no-repeat;
+  border: none;
+}
+
+.btn-palm {
+  background: url('img/btn-palm.png') no-repeat;
+}
+
+.btn-last {
+  background: url('img/SW_Sam-Ciurdar-2.png') no-repeat;
+}
+
+header {
+  background: url(img/Группа_2.png) no-repeat 50% 35%, url('img/Фигура_4_копия.png') no-repeat 50% 0;
+  height: 1062px;
+  margin-bottom: 65px;
+}
+
+.navigation {
+  background-color: rgba(0,0,0,0.1);
+  padding-bottom: 10px;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.navigation ul li {
+  margin-top: 27px;
+  margin-bottom: 15px;
+  margin-right: 30px;
+
+}
+
+.navigation ul li a {
+  padding-bottom: 2px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 2.01px
+}
+
+
+.navigation ul li a:hover {
+  padding-bottom: 2px;
+  color: #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.logo-h2 {
+  position: relative;
+  background: url('img/Light_Leak_(13)_копия.png') no-repeat center;
+  margin-bottom: 51px;
+}
+
+.logo-h2 h2 {
+  opacity: 0.1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 6.3px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.logo-h2 span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  width: 502px;
+  border: 1px solid black;
+}
+
+.discography {
+  background: url('img/discography-back.png') no-repeat;
+  background-position: bottom;
+  width: 100%;
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #798285;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1.65px;
+}
+
+.text p {
+  width: 720px;
+}
+
+.discography-list {
+  margin-top: 157px;
+  padding-bottom: 339px;
+}
+
+.text-and-figure {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 113px;
+}
+
+.figure {
+  width: 45%;
+}
+
+.figure p:nth-child(1) {
+  padding-bottom: 11px;
+  border-bottom: 1px solid black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.65;
+}
+
+.figure p:nth-child(2) {
+  padding-top: 11px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.discography-text {
+  width: 55%;
+  padding-left: 30px;
+}
+
+.discography-text h3 {
+  font-weight: 400;
+  margin-top: -23px;
+  margin-bottom: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+  letter-spacing: 0.41px;
+}
+
+.discography-text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  color: #acacac;
+  margin-bottom: 21px;
+}
+
+.concert {
+  padding-top: 165px;
+  background: url('img/Слой_5.png') no-repeat;
+  background-position: bottom;
+}
+
+.concert .text {
+  text-align: center;
+}
+
+.concert .text p {
+  width: 876px;
+  margin-bottom: 472px;
+}
+
+
+.concert .logo-h2 {
+  position: relative;
+  background: url('img/Concert_tours.png') no-repeat center;
+  margin-bottom: 51px;
+}
+
+
+.concert .figure {
+  width: 30%;
+  margin-bottom: 84px;
+}
+
+
+.concert-text h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: 0.41px;
+  margin-bottom: 23px;
+}
+
+.concert-text p {
+  width: 670px;
+  color: #798285;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  margin-bottom: 38px;
+}
+
+.concert-text .btn {
+  background: none;
+  background-color: none;
+  border: 1px solid #636363;
+  opacity: 0.44;
+  margin-bottom: 247px;
+}
+
+/*...latter-compositions...*/
+
+.latter-compositions .logo-h2 {
+  background: url(img/_latter_compositions.png) no-repeat center;
+  margin-top: 160px;
+}
+
+.latter-compositions .logo-h2 span {
+  width: 580px;
+  margin-left: -290px;
+}
+
+.latter-compositions .text {
+  margin-bottom: 162px;
+}
+
+
+
+/*PLAYER*/
+.player-flex {
+  margin-bottom: 105px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.player {
+  margin-bottom: 54px;
+  box-sizing: border-box !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 600px;
+  height: 400px;
+  padding: 35px;
+  background-color: #f5f6f6;
+}
+
+.player-music {
+  bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.player-music .player-health + span {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.player-music .player-stop span {
+  display: inline-block;
+  width: 3px;
+  height: 13px;
+  background-color: white;
+}
+
+.player-health {
+  width: 405px;
+  height: 0;
+  border: 2px solid #ffffff;
+}
+
+.player.play {
+  background-image: url('img/maxresdefault_(1).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: flex-end;
+}
+
+.infos p {
+  color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 11px;
+  border-bottom: 2px solid black;
+  width: 430px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.infos h3 {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 11px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.track-name h2 {
+  width: 482px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: 0.41px;
+}
+
+.track-info {
+  width: 502px;
+  color: #798285;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #999999;
+}
+
+.btn-social {
+  width: 196px;
+  height: 56px;
+  border: 1px solid rgba(99, 99, 99, 0.4);
+  background: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.player.play.two {
+  background-image: url('img/maxresdefault_(2).png');
+}
+
+.player.play.three {
+  background-image: url('img/Слой_8.png');
+}
+/*PLAYER*/
+
+/*....slider block.....*/
+
+.slider {
+  text-align: center;
+  padding-top: 161px;
+  padding-bottom: 86px;
+  position: relative;
+  background-image: url('img/ocean-828977_копия.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-slider {
+  display: flex;
+  width: 85px;
+  height: 171px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 30%;
+}
+
+.left {
+  padding-left: 22px;
+  left: 0px;
+  background-image: url('img/Слой_21.png');
+}
+
+.right {
+  justify-content: flex-end;
+  right: 0px;
+  background-image: url('img/Слой_22.png');
+  padding-right: 22px;
+}
+
+.preview-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 47px;
+}
+
+.preview-image img {
+  margin-right: 25px;
+}
+
+.slider h3 {
+  margin: 0 auto;
+  margin-bottom: 45px;
+  color: white;
+  width: 882px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2.18px;
+}
+
+.slider p {
+  margin: 0 auto;
+  margin-bottom: 67px;
+  width: 510px;
+  color: #798285;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+}
+
+.slider span {
+  margin-bottom: 80px;
+  display: block;
+  color: #565e61;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+}
+
+.btn-group {
+  padding-left: 38px;
+}
+
+.btn-group button {
+  margin-right: 38px;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+.primary {
+  background: none;
+  border: 1px solid #ffffff;
+}
