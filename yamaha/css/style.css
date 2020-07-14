@@ -97,6 +97,11 @@
     align-items: center;
 }
 
+.sub-nav div:hover {
+    margin-bottom: -3px !important;
+    border-bottom: 3px solid #ee3b33 !important;    
+}
+
 .sub-nav div img {
     width: 157px;
     height: 90px;
