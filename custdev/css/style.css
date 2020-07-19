@@ -161,7 +161,6 @@ header {
     border: none;
     font-size: 14px;
     font-weight: 700;
-    line-height: 17.42px;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     text-transform: uppercase;
@@ -227,3 +226,64 @@ header {
     text-decoration: none;
 }
 
+.block2 {
+    padding-bottom: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.block2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.block2-text h2 {
+    width: 450px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.32px;
+}
+
+.block2-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.block2-list ul li {
+    margin-bottom: 61px;
+    margin-left: 33px;
+    text-align: left;
+    width: 313px;
+    box-sizing: border-box;
+    padding-left: 54px;
+    padding-top: 32px;
+    padding-bottom: 43px;
+    height: 221px;
+    border-radius: 10px;
+    box-shadow: 0 30px 100px rgba(47, 55, 237, 0.1);
+}
+
+.block2-list ul li h3 {
+    color: #2f80ed;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.45px;
+}
+
+.block2-list ul li p {
+    width: 231px;
+    margin-top: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.1px;
+}
