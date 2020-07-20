@@ -5,7 +5,6 @@
 <ul>
     <li>
         <a href="#">Макет CustDev</a>
-        <img style="width: 100px; height: 100px" src="#" alt="CustDev">
     </li>
     <li><a href="#">Макет Yamaha</a></li>
     <li><a href="#">Макет Zippy</a></li>
