@@ -766,3 +766,198 @@ h2 {
 .block-7-circule img:nth-child(2), img:nth-child(3) {
     position: absolute;
 }
+
+.block-8 {
+    margin-top: 129px;
+    margin-bottom: 104px;
+
+}
+
+.block-8 h2 {
+    text-align: center;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.32px;
+    margin-bottom: 65px;
+}
+
+.block-8 ul {
+    margin: 0 auto;
+    width: 1500px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -25px;
+}
+
+.block-8 ul li {
+    width: 341px;
+    height: 267px;
+    margin-right: 25px;
+
+}
+
+.block-8 ul li {
+    margin-top: 25px;
+}
+
+.block-8 ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.block-9 {
+    margin-bottom: 89px;
+}
+
+
+.block-9 h2 {
+    text-align: center;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.32px;
+    margin-bottom: 57px;
+}
+
+
+
+.block-9-text-container {
+    position: relative;
+    margin: 0 auto;
+    width: 897px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.b9-back {
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    right: 0;
+    margin-left: -375px; 
+}
+
+.b9-cart {
+    position: relative;
+    z-index: 9000;
+    width: 271px;
+    height: 293px;
+    box-shadow: 0 20px 50px rgba(47, 55, 237, 0.12);
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.b9-cart h3 {
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-bottom: 12px;
+    color: #2f80ed;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38.09px;
+}
+
+.b9-cart p {
+    margin-left: 12px;
+    color: #2f80ed;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.36px;
+    margin-bottom: 33px;
+
+}
+.b9-cart .vigodno {
+    position: absolute;
+    right: -45px;
+    top: -45px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #2f80ed;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.93px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns {
+    width: 192px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #52d1bc;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21.33px;
+    border: none;
+}
+
+.last-cart {
+    margin: 0 auto;
+    margin-top: 43px;
+    z-index: 9000;
+    width: 570px;
+    height: 160px;
+    box-shadow: 0 20px 50px rgba(47, 55, 237, 0.12);
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-cart div h3 {
+    color: #2f80ed;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38.09px;
+}
+
+.last-cart div p {
+    color: #2f80ed;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.36px;
+}
+
+
+
+/*
+block-10
+width: 870px;*/
+
+
+.block-10 {
+    position: relative;
+    margin: 0 auto;
+    width: 870px;
+}
+
+.block-10 h2 {
+    color: #white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.32px;
+    margin-bottom: 57px; 
+}
