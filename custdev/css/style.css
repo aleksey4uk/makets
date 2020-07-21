@@ -636,3 +636,133 @@ h2 {
     letter-spacing: 0.8px;
     text-transform: uppercase;
 }
+
+.block-7 {
+    background-image: url('../img/block-7-back-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1276px;
+    height: 883px;
+    margin: 0 auto;
+    margin-top: 133px;
+    box-sizing: border-box;
+    padding-top: 68px;
+    position: relative;
+}
+
+
+.cart-1 {
+    position: relative;
+    width: 554px;
+    height: 227px;
+    box-sizing: border-box;
+}
+
+.block-7 h2 {
+    margin-bottom: 75px;color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 53.32px;
+}
+
+.block-7-cart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block-7 .cart-1 h3 {
+    position: relative;
+    z-index: 1000;
+    padding-top: 27px;
+    padding-left: 51px;
+    width: 100%;
+    color: #636363;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    line-height: 29.26px;
+}
+
+.block-7 .cart-1 p {
+    margin-top: 15px;
+    position: relative;
+    z-index: 1000;
+    padding-left: 51px;
+    width: 462px;
+    color: #636363;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+.back-image {
+    left: -22px;
+    z-index: 100;
+    top: -12px;
+    position: absolute;
+}
+
+.img-absolute {
+    z-index: 200;
+    position: absolute;
+    bottom: -78px;
+}
+
+.block-7 .cart-1:nth-child(2) .img-absolute {
+    bottom: -260px;
+}
+
+.block-7 .cart-1:nth-child(3) {
+    margin-top: 143px;
+
+}
+
+.block-7 .cart-1:nth-child(3) .img-absolute {
+    bottom: -95px;
+}
+
+.block-7-circule {
+    box-sizing: border-box;
+    width: 231px;
+    height: 231px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-7-circule p, a {
+    z-index: 10000;
+    width: 130px;
+    text-align: center;
+    color: #2f80ed;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.23px;
+}
+
+.block-7-circule a {
+    margin-top: 16px;
+    text-decoration: none;
+}
+
+
+
+.block-7-circule img:nth-child(1) {
+    margin-bottom: 16px;
+    margin-top: -16px;
+    z-index: 10000;
+}
+
+.block-7-circule img:nth-child(2), img:nth-child(3) {
+    position: absolute;
+}
